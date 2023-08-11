@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code Playground</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1 id="heading">Code Editor</h1>
+        </div>
+        <div id="html-section">
+            <h2>HTML</h2>
+            <textarea spellcheck="false" placeholder="Write your html code here..." id="html-code"></textarea>
+        </div>
+
+        <div id="css-section">
+            <h2>CSS</h2>
+            <textarea spellcheck="false" placeholder="Write your css code here..." id="css-code"></textarea>
+        </div>
+        <div id="js-section">
+            <h2>JavaScript</h2>
+            <textarea spellcheck="false" placeholder="Write your Js code here..." id="js-code"></textarea>
+        </div>
+        <button id="run-button">Run</button>
+        <div id="console-section">
+            <h2>Console Output</h2>
+            <div id="console-output">
+            </div>
+        </div>
+        <div id="output-section">
+            <h2>Web Page Output</h2>
+            <iframe id="web-output"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.container {
+    display: grid;
+    grid-template-areas: "header header header header header"
+        "html-section html-section css-section js-section js-section"
+        "run-button run-button run-button run-button run-button"
+        "console-section console-section console-section console-section console-section "
+        "output-section output-section output-section output-section output-section";
+}
+
+
+#header {
+    grid-area: header;
+    border: 4px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: grey;
+    color: white;
+    height: 10vh;
+
+}
+
+#html-section {
+    border: 4px solid rgb(0, 0, 0);
+    grid-area: html-section;
+    padding-left: 2px;
+    height: 60vh;
+
+}
+
+#html-code {
+    height: 80%;
+    width: 98%;
+    background-color: black;
+    color: white;
+
+}
+
+#css-section {
+    height: 400px;
+    border: 4px solid rgb(0, 0, 0);
+    grid-area: css-section;
+    padding-left: 2px;
+    height: 60vh;
+
+
+
+}
+
+#css-code {
+    height: 80%;
+    width: 98%;
+    background-color: black;
+    color: white;
+}
+
+#js-section {
+    height: 400px;
+    border: 4px solid rgb(0, 0, 0);
+    grid-area: js-section;
+    padding-left: 2px;
+    height: 60vh;
+
+
+
+}
+
+#js-code {
+    height: 80%;
+    width: 98%;
+    background-color: black;
+    color: white;
+}
+
+#run-button {
+    grid-area: run-button;
+    height: 4vh;
+    margin: 4px;
+}
+
+#output-section {
+    grid-area: output-section;
+    border: 4px solid rgb(0, 0, 0);
+
+
+}
+
+#web-output {
+    width: 99%;
+    height: 90vh;
+    margin-left: 2px;
+
+}
+
+#console-section {
+    width: 99%;
+    height: 20vh;
+    margin-left: 2px;
+    border: 4px solid rgb(0, 0, 0);
+    grid-area: console-section;
+
+}
